@@ -37,6 +37,7 @@ body {
   font-family: "Outfit", sans-serif;
   background-color: #d5e1ef;
   transition: background-color 300ms;
+  display: grid;
 }
 
 .section-qr-code {
