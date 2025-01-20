@@ -24,7 +24,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: https://github.com/ChNokia/qr-code-component
-- Live Site URL: https://github.com/ChNokia/qr-code-component
+- Live Site URL: https://chnokia.github.io/qr-code-component/
 
 ## My process
 
