@@ -1,0 +1,105 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d5e1ef;
+  transition: background-color 300ms;
+}
+
+.section-qr-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  max-width: 375px;
+  min-width: 320px;
+  padding: 0;
+  margin: auto;
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+.qr-code-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 320px;
+  margin: auto;
+
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code-img {
+  border-radius: 10px;
+  width: 288px;
+  height: 288px;
+}
+
+.qr-code-description-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 16px;
+  gap: 16px;
+}
+
+.qr-code-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-code-text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+}
