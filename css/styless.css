@@ -48,8 +48,7 @@ body {
 }
 .container {
   max-width: 375px;
-  min-width: 320px;
-  padding: 0;
+  padding: 16px;
   margin: auto;
 
   @media screen and (min-width: 1440px) {
@@ -75,8 +74,6 @@ body {
 
 .qr-code-img {
   border-radius: 10px;
-  width: 288px;
-  height: 288px;
 }
 
 .qr-code-description-div {
